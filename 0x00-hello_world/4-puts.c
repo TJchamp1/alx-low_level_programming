@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(void)
-{puts("\"Programming is like building a multilingual puzzle");/*abc*/
+{puts("\"Programming is like building a multilingual puzzle");
+	/*adsfad*/
 return (0);
 }
