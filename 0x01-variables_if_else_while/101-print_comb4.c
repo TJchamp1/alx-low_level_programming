@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 /**
  * main - Print combinations of two digit numbers
  *
@@ -9,7 +9,7 @@ int main(void)
 int hunds, tens, ones;
 for (hunds = 0; hunds <= 9; hunds++)
 {
-for (tens = 0; tens <= 9; tens++)
+for (tens = hunds + 1; tens <= 9; tens++)
 {
 for (ones = tens + 1; ones <= 9; ones++)
 {
