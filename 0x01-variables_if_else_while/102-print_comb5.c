@@ -13,7 +13,7 @@ for (hunds = 0; hunds <= 9; hunds++)
 {
 for (tens = 0; tens <= 9; tens++)
 {
-for (ones = 0; ones <= 9; ones++)
+for (ones = 1; ones <= 9; ones++)
 {
 putchar(tow + '0');
 putchar(hunds + '0');
