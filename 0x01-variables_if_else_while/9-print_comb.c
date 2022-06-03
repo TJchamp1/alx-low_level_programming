@@ -12,7 +12,8 @@ for (i = 0; i < 10; i++)
 {
 if (i <= 8)
 {
-putchar(i % 10 + '0' + ',');
+putchar(i % 10 + '0');
+putchar(',' + ' ');
 }
 else if (i == 9)
 {
