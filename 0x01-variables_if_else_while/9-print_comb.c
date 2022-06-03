@@ -7,14 +7,13 @@
  */
 int main(void)
 {
-int i;
+int i, j = 44;
 for (i = 0; i < 10; i++)
 {
 if (i <= 8)
 {
 putchar(i % 10 + '0');
-putchar(',');
-putchar(' ');
+putchar(j + ' ');
 }
 else if (i == 9)
 {
