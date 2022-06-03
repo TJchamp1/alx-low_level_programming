@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-int tow, hunds, tens, ones;
+int tow, hunds, tens, ones = 1;
 for (tow = 0; tow <= 9; tow++)
 {
 for (hunds = 0; hunds <= 9; hunds++)
 {
 for (tens = 0; tens <= 9; tens++)
 {
-for (ones = 1; ones <= 9; ones++)
+for (ones; ones <= 9; ones++)
 {
 putchar(tow + '0');
 putchar(hunds + '0');
@@ -25,6 +25,7 @@ if (tow < 9)
 putchar(',');
 putchar(' ');
 }
+ones = 0;
 }
 }
 }
