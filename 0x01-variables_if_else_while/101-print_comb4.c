@@ -16,7 +16,7 @@ for (ones = tens + 1; ones <= 9; ones++)
 putchar(hunds + '0');
 putchar(tens + '0');
 putchar(ones + '0');
-if (hunds < 8)
+if (hunds < 7)
 {
 putchar(',');
 putchar(' ');
