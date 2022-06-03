@@ -14,7 +14,7 @@ if (i <= 8)
 {
 putchar(i % 10 + '0');
 putchar(',');
-putchar(" ");
+putchar(' ');
 }
 else if (i == 9)
 {
