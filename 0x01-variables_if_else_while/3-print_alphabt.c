@@ -10,9 +10,14 @@ int n = 122, i;
 for (i = 97; i <= n; i++)
 {
 if (i == 101 || i == 113)
-continue;
+{
+}
+else 
+{
 putchar(i);
 }
+}
+putchar('\n');
 return (0);
 }
 
