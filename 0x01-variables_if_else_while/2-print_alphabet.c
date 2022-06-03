@@ -9,7 +9,8 @@ int main(void)
 {
 int n = 122, i;
 for (i = 97; i <= n; i++)
-putchar(i + "\n");
+putchar(i);
+putchar('\n');
 return (0);
 }
 
