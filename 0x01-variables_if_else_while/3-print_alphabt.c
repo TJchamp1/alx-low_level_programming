@@ -1,7 +1,5 @@
 #include<stdio.h>
 #include <stdlib.h>
-#include <time.h>
-#include<ctype.h>
 /**
  * main - main block
  * Return: 0
@@ -15,6 +13,6 @@ if (i == 101 || i == 113)
 continue;
 putchar(i);
 }
-return (0);i
+return (0);
 }
 
