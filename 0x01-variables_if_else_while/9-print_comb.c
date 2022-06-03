@@ -13,15 +13,14 @@ for (i = 0; i < 10; i++)
 if (i <= 8)
 {
 putchar(i % 10 + '0');
-putchar(", ");
-
+putchar(',');
+putchar(" ");
 }
 else if (i == 9)
 {
 putchar(i % 10 + '0');
 }
 }
-putchar('\n');
 return (0);
 }
 
