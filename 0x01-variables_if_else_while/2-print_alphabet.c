@@ -9,7 +9,7 @@ int main(void)
 {
 int n=122, i;
 for (i = 97; i <= n; i++ )
-putchar("%c\n",i);
+putchar(i);
 return (0);
 }
 
