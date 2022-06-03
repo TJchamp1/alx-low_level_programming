@@ -20,7 +20,7 @@ putchar(hunds + '0');
 putchar(' ');
 putchar(tens + '0');
 putchar(ones + '0');
-if (hunds < 7)
+if (hunds < 9)
 {
 putchar(',');
 putchar(' ');
