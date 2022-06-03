@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-int n,lastdigit;
+int n, lastdigit;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-        /* your code goes there */
+/* your code goes there */
 lastdigit = n % 10;
 if (n != 0 && n < 6)
 {
@@ -27,6 +27,6 @@ printf("Last digit of %d is %d and is 0\n", n, lastdigit);
 }
 
 
-        return (0);
+return (0);
 }
 
