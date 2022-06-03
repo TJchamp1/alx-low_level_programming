@@ -10,11 +10,11 @@ int main(void)
 int i;
 for (i = 0; i < 16; i++)
 {
-if(i < 9)
+if (i < 10)
 {
 putchar(i % 10 + '0');
 }
-else
+else if (i >= 10)
 {
 putchar(i);
 }
