@@ -9,16 +9,10 @@ int main(void)
 {
 int i;
 for (i = 0; i < 16; i++)
-{
-if (i < 10)
-{
 putchar(i % 10 + '0');
-}
-else if (i >= 10)
-{
+
+for(i = 97; i <= 101; i++ )
 putchar(i);
-}
-}
 putchar('\n');
 return (0);
 }
