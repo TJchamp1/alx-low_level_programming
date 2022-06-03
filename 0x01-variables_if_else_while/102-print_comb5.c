@@ -1,33 +1,29 @@
 #include <stdio.h>
+
 /**
- * main - Print combinations of two digit numbers
+ * main - Prints all possible combinations of two two-digit numbers,
+ * ranging from 0-99, separated by a comma followed by a space.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-int tow, hunds, tens, ones, j = 1;
-for (tow = 0; tow <= 9; tow++)
+int num1, num2;
+
+for (num1 = 0; num1 <= 98; num1++)
 {
-for (hunds = 0; hunds <= 9; hunds++)
+for (num2 = num1 + 1; num2 <= 99; num2++)
 {
-for (tens = 0; tens <= 9; tens++)
-{
-for (ones = j; ones <= 9; ones++)
-{
-putchar(tow + '0');
-putchar(hunds + '0');
+putchar((num1 / 10) + '0');
+putchar((num1 % 10) + '0');
 putchar(' ');
-putchar(tens + '0');
-putchar(ones + '0');
-if (tow < 9)
-{
+putchar((num2 / 10) + '0');
+putchar((num2 % 10) + '0');
+
+if (num1 == 98 && num2 == 99)
+continue;
 putchar(',');
 putchar(' ');
-}
-}
-j = 0;
-}
 }
 }
 putchar('\n');
