@@ -12,6 +12,7 @@ for (i = 0; i <= 122; i++ )
 {
 putchar(i);
 }
+}
 int main(void)
 {
 print_alphabet();
