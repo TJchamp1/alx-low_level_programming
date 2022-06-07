@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - main block
- * Return: 0
+ * funtion - funtction block
+ * Return: noting
 */
 void  print_alphabet(void)
 {
