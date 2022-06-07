@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- *  main - Prints _putchar as a message.
- *
- *  Return: Always 0 (Success)
- */
+ * main - main block
+ * Return: 0
+*/
 void  print_alphabet(void)
 {
 int i;
-for (i = 0; i <= 122; i++)
+for (i = 97; i <= 122; i++)
 {
 _putchar(i);
 }
