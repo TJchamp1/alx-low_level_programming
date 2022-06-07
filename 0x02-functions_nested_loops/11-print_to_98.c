@@ -11,21 +11,17 @@ if (n > 98)
 {
 for (i = n; i < 98; i++)
 {
-printf("%d", i);
-_putchar(',');
-_putchar(' ');
+printf("%d, ", i);
 }
-_putchar(98 + '0');
+printf("98");
 }
 else
 {
 for (i = n; i > 98; i--)
 {
-_putchar('i' + '0');
-_putchar(',');
-_putchar(' ');
+printf("%d, ", i);
 }
-_putchar(98 + '0');
+printf("98");
 }
 }
 
