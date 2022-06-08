@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * print_alphabet - function that prints alphabets
- * @i: integer 
- * Return: non as it is void
+ * @n: integer 
+ * Return: @n the value of the last digit
 */
 void  print_alphabet(void)
 {
