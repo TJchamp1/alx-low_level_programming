@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 /**
  * funtion - funtction block
  * Return: noting
