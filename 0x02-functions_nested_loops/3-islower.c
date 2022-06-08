@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 * funtion - funtction block
+* such a time waste
 * Return: noting
-* very time waste for this one
 */
 int _islower(int c)
 {
