@@ -1,9 +1,9 @@
 #include "main.h"
 #include<stdio.h>
 /**
- * funtion - funtction block
- * Return: noting
-*/
+ * print_to_98 - function
+ * @n: will be used
+ */
 void print_to_98(int n)
 {
 int i;
