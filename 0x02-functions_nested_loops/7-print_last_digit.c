@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * funtion - funtction block
- * Return: noting
+* print_last_digit - function that prints the last digit
+* @c: integer
+* Return: @c the value of the last digit
 */
 int print_last_digit(int c)
 {
