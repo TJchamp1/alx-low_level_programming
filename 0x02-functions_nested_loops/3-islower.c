@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-* funtion - funtction block
-* such a time waste
-* Return: noting
+* print_alphabet - function that prints alphabets
+* adsf
+* Return: @n the value of the last digit
 */
+
 int _islower(int c)
 {
 if (c >= 97 && c <= 122)
