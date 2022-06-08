@@ -2,7 +2,7 @@
 /**
 * _islower - function that returns the lower
 * @c: will be used
-* Return - it returns 0 or 1
+* Return: it returns 0 or 1
 */
 
 int _islower(int c)
