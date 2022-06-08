@@ -1,7 +1,8 @@
 #include "main.h"
 /**
 * _islower - function that returns the lower
-* Return - 1 or 0
+* @c: will be used
+* Return - it returns 0 or 1
 */
 
 int _islower(int c)
