@@ -13,25 +13,26 @@ for (min = 0; min <= 59; min++)
 {
 if (hora <= 9)
 {
-printf("0%d:",hora);
+printf("0%d:", hora);
 if (min <= 9)
 {
-printf("0%d\n",min);
+printf("0%d\n", min);
 }
 else
 {
-printf("%d\n",min);
+printf("%d\n", min);
 }
 }
 else
 {
-printf("%d:",hora);
+printf("%d:", hora);
 if (min <= 9)
 {
-printf("0%d\n",min);
+printf("0%d\n", min);
 }
-else{
-printf("%d\n",min);
+else
+{
+printf("%d\n", min);
 }
 }
 }
