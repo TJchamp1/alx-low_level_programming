@@ -1,8 +1,7 @@
 #include "main.h"
 #include<stdio.h>
 /**
- * funtion - funtction block
- * Return: noting
+ * jack_bauer - funtction block
 */
 void jack_bauer(void)
 {
@@ -14,7 +13,7 @@ for (min = 0; min <= 59; min++)
 {
 if (hora <= 9)
 {
-printf("0%d : ",hora);
+printf("0%d:",hora);
 if (min <= 9)
 {
 printf("0%d\n",min);
@@ -26,7 +25,7 @@ printf("%d\n",min);
 }
 else
 {
-printf("%d : ",hora);
+printf("%d:",hora);
 if (min <= 9)
 {
 printf("0%d\n",min);
