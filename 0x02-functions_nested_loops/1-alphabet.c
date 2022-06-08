@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * funtion - funtction block
- * Return: noting
- * abcd
+ * print_alphabet - function that prints alphabets
+ * @i: integer 
+ * Return: non as it is void
 */
 void  print_alphabet(void)
 {
