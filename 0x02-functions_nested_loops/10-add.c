@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * funtion - funtction block
- * Return: noting
-*/
+ * add - function
+ * @a: will be used
+ * Return: a + b
+ */
 int add(int a, int b)
 {
 return (a + b);
