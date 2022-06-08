@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
  * main - main block
- * Return - 0
+ * Return: 0
  */
-int main() {
+int main(void) 
+{
 int i;
 int t1 = 1, t2 = 2;
 int nextTerm = t1 + t2;
