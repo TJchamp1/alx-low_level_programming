@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * funtion - funtction block
- * Return: noting
-*/
+ * print_sign - uff
+ * @n: will be used
+ * Return: smt
+ */
 int print_sign(int n)
 {
 if (n > 0)
