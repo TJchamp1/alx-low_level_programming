@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * funtion - funtction block
- * Return: noting
+* print_alphabet_x10 - funtction that prints alphabets 10 times
+* @i: helps to do the loop and @j
+* Return: noting but prints all
 */
 void  print_alphabet_x10(void)
 {
