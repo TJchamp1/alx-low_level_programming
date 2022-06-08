@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * funtion - funtction block
- * Return: noting
-*/
+ * _isalpha - funtction 
+ * @c: will be used
+ * Return: 1 or 2
+ */
 int _isalpha(int c)
 {
 if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
