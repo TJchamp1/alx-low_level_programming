@@ -2,6 +2,7 @@
 /**
 * funtion - funtction block
 * Return: noting
+* very time waste for this one
 */
 int _islower(int c)
 {
