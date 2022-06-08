@@ -2,6 +2,7 @@
 /**
  * funtion - funtction block
  * Return: noting
+ * abcd
 */
 void  print_alphabet(void)
 {
