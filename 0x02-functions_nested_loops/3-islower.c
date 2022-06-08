@@ -1,8 +1,7 @@
 #include "main.h"
 /**
 * _islower - function that returns the lower
-* adsf
-* Return: @i and @1 or @0  the value of the last digit
+* Return - 1 or 0
 */
 
 int _islower(int c)
