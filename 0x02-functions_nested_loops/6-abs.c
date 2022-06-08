@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * funtion - funtction block
- * Return: noting
-*/
+ * _abs - function
+ * @c: will be used
+ * Return: @c will be returned
+ */
 int _abs(int c)
 {
 if (c < 0)
