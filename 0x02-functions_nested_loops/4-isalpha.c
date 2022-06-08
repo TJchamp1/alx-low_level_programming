@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isalpha - funtction 
- * @c: will be used
- * Return: 1 or 2
+* _isalpha - funtction 
+* @c: will be used
+* Return: 1 or 2
 */
 int _isalpha(int c)
 {
