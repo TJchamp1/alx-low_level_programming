@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * funtion - funtction block
- * Return: noting
+* funtion - funtction block
+* Return: noting
 */
 int _islower(int c)
 {
