@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* print_alphabet - function that prints alphabets
+* _islower - function that returns the lower
 * adsf
-* Return: @n the value of the last digit
+* Return: @i and @1 or @0  the value of the last digit
 */
 
 int _islower(int c)
