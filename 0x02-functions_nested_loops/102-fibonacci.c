@@ -5,7 +5,7 @@
  */
 int main() {
 
-  int i, n;
+  int i;
 
  
   int t1 = 0, t2 = 1;
