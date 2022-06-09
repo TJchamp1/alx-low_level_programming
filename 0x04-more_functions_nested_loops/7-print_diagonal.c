@@ -10,7 +10,7 @@ for (j = 1 ; j <= ( 2 * n )- 1 ; j++)
 {
 
 if (i == j || i + j == 2 * n)
-_putchar('\\') ;
+_putchar('a') ;
 else
 _putchar(' ') ;
 
