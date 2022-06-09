@@ -1,8 +1,6 @@
 #include "main.h"
-
 /**
- * print_lines - prints lines
- * Return : No return
+ * print_line - prints lines
  */
 void print_line(int n)
 {
@@ -13,7 +11,7 @@ _putchar('\n');
 }
 else
 {
-for (i = 0; i < n; i++ )
+for (i = 0; i < n; i++)
 {
 _putchar('_');
 }
