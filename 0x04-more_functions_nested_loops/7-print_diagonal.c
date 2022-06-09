@@ -1,25 +1,14 @@
 include "main.h";
 void print_diagonal(int n)
 {
- int   i, j, k=1 ;
-printf("\n Pattern are : \n\n") ;
-for (i = 1 ; i <= (2 * n ) - 1 ; i++)
+int i, j;
+for (i = 0; i < 5; i++)
 {
-
-for (j = 1 ; j <= ( 2 * n )- 1 ; j++)
+_putchar('\\');
+_putchar('\n');
+for (j = 0; j < i + 1; j++)
 {
-
-if (i == j || i + j == 2 * n)
-_putchar('a') ;
-else
-_putchar(' ') ;
-
+_putchar(' ');
 }
-if (i < n)
-k++ ;
-else
-k-- ;
-_putchar(' ') ;
-
 }
 }
