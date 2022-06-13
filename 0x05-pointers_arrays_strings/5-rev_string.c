@@ -11,7 +11,7 @@ int len, i, j = 0;
 len = strlen(s);
 for (i = len - 1; i >= 0; i--)
 {
-s[j] = s[i];
+s[j] = *(s + i);
 j++;
 }
 }
