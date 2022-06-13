@@ -14,9 +14,4 @@ for (j = 0; j < len; j++)
 printf("%c", *(s + j));
 }
 printf("\n");
-for (i = len - 1; i >= 0; i--)
-{
-printf("%c", *(s + i));
-}
-printf("\n");
 }
