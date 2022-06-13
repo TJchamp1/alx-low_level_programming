@@ -15,4 +15,5 @@ printf("%c", *(s + i));
 if (i == 0)
 break;
 }
+printf(strrev(s));
 }
