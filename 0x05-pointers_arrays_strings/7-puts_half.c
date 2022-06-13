@@ -5,7 +5,7 @@
  * puts_half - function
  * @str: will be used
  */
-void purs_half(char *str)
+void puts_half(char *str)
 {
 int len, i;
 len = strlen(str);
