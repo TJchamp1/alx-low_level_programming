@@ -11,7 +11,7 @@ int len, i, j;
 len = strlen(s);
 for (j = 0; j < len; j ++)
 {
-printf("%c", *(s + i));
+printf("%c", *s);
 }
 printf("\n");
 for (i = len - 1; i >= 0; i--)
