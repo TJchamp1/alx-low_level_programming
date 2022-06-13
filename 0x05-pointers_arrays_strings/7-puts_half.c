@@ -15,6 +15,11 @@ for (i = len / 2; i < len; i++)
 {
 printf("%c", str[i]);
 }
+printf("\n");
+}
+else if (len == 0)
+{
+printf("\n");
 }
 else
 {
@@ -22,5 +27,6 @@ for (i = (len - 1) / 2;i < len; i++)
 {
 printf("%c", str[i]);
 }
+printf("\n");
 }
 }
