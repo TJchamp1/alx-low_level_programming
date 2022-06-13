@@ -9,8 +9,8 @@ void rev_string(char *s)
 {
 int len, i;
 len = strlen(s);
-for (i = 0; i < len; i++)
+for (i = len - 1; i <= 0; i--)
 {
-printf("%c", *s);
+printf("%c", *(s + i));
 }
 }
