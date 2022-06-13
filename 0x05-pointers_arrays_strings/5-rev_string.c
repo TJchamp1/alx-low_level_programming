@@ -7,11 +7,5 @@
  */
 void rev_string(char *s)
 {
-int len, j;
-len = strlen(s);
-for (j = 0; j < len; j++)
-{
-printf("%c", *s);
-}
-printf("\n");
+
 }
