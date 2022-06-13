@@ -9,9 +9,9 @@
  */
 char *_strcpy(char *dest, char *src);
 {
-int i;
-dest = (char*)malloc(20);
-for (i = 0; src[i] != '\0'; i++)
+int i, len;
+len = strlen(str);
+for (i = 0; i < len; i++)
 {
 dest[i] = src[i];
 }
