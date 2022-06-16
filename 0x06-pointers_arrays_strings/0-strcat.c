@@ -13,7 +13,8 @@ while (dest[i] != '\0')
 {
 ++src;  
 i++;  
-}  
+}
+dest[i + 1] = ' ';
 while (src[j] != '\0')  
 {  
 *dest = *src;  
