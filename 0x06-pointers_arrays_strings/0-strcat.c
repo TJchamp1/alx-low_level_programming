@@ -16,7 +16,7 @@ for (i = n; i <= n2; i++)
 {
 if (i == n)
 {
-dest[i] = " ";
+dest[i] = 'a';
 }
 else
 {
