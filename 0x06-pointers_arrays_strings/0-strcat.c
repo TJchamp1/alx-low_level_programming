@@ -14,5 +14,5 @@ for (i = n + 1; i <= n2; i++)
 dest[i] = src[j];
 j++;
 }
-return (*dest);
+return (dest);
 }
