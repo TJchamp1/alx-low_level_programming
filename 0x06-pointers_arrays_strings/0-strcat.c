@@ -2,7 +2,7 @@
 #include<string.h>
 /**
  * *_strcat - function
- * @deest: will be used
+ * @dest: will be used
  * @src: will be used
  * Return: noting
  */
