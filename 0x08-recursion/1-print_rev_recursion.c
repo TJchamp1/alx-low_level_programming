@@ -7,6 +7,9 @@
  */
 void _print_rev_recursion(char *s)
 {
-strrev(s);
-printf ("%s", s);
+if (s != '\n') 
+{
+_print_rev_recursion();
+printf("%c", s);
+}
 }
