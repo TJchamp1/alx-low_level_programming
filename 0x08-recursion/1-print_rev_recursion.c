@@ -7,9 +7,11 @@
  */
 void _print_rev_recursion(char *s)
 {
-if (s != '\n') 
+int n = strlen(s);
+if (n >= 0) 
 {
-_print_rev_recursion();
-printf("%c", s);
+printf("%c", s[n]);
+n--;
+_print_rev_recursion(s);
 }
 }
