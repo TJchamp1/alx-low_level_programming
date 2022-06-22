@@ -7,10 +7,5 @@
  */
 void _print_rev_recursion(char *s)
 {
-int i;
-for (i = strlen(s) - 1; i >= 0; i--)
-{
-printf("%c\n", s[i]);
-}
-printf("\n");
+printf ("%s", strrev(s));
 }
